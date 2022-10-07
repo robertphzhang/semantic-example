@@ -1,0 +1,33 @@
+{
+  "name": "semantic-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertphzhang/semantic-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertphzhang/semantic-example/issues"
+  },
+  "homepage": "https://github.com/robertphzhang/semantic-example#readme",
+  "devDependencies": {
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.1",
+    "semantic-release": "^19.0.5",
+    "semantic-release-codeartifact": "^2.0.8"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
