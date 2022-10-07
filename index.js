@@ -2,3 +2,5 @@ module.exports.hello = (name, age) => {   return `Hello ${name}! ${name} is ${ag
 
 console.log("hi")
 console.log("hi")
+console.log("hi")
+console.log("hi")
